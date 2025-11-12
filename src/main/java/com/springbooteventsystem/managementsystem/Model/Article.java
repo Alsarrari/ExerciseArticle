@@ -40,8 +40,7 @@ public class Article {
     @NotNull(message = "image not null")
     private String imageUrl;
 
-    private boolean  isPublished ;
-
+    private boolean isPublished = false;
 
     private String publishDate;
 
