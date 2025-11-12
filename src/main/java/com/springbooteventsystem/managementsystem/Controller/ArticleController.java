@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/a1/article")
+  @RequiredArgsConstructor
 public class ArticleController {
   
     @GetMapping("/get")
