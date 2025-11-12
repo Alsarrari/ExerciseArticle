@@ -11,7 +11,14 @@ import java.util.ArrayList;
 
 @Service
 public class ArticleServise {
-    public ArrayList<Article>articles=new ArrayList<>();
-    ArrayList<Article> articles
+    ArrayList<Article> articles=new ArrayList<>();
 
+    public ArrayList<Article> getArticles(){
+        return articles;
+    }
+
+    public void addArticle(Article article){
+        articles.add(article);
+
+    }
 }
